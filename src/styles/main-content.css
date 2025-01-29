@@ -1,3 +1,12 @@
+/* Variáveis para cores e espaçamentos */
+:root {
+  --primary-color: #1db954;
+  --secondary-color: #121212;
+  --text-light: #fff;
+  --text-dark: #6a6a6a;
+  --border-radius: 8px;
+  --padding: 16px;
+}
 /* HEADER */
 .main-container {
   max-width: 80vw;

@@ -51,3 +51,76 @@
   }
 
 }
+/* Dispositivos muito pequenos (até 374px) */
+@media screen and (max-width: 374px) {
+  .playlist {
+    display: none;
+  }
+
+  .playlist-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+  }
+}
+
+/* Smartphones pequenos (375px a 599px) */
+@media screen and (min-width: 375px) and (max-width: 599px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablets e dispositivos médios (600px a 1015px) */
+@media screen and (min-width: 600px) and (max-width: 1015px) {
+  .header__search {
+    width: auto !important;
+    display: none;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Laptops pequenos e telas intermediárias (1016px a 1140px) */
+@media screen and (min-width: 1016px) and (max-width: 1140px) {
+  .header__search {
+    width: auto !important;
+    display: none;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Telas grandes (1141px ou mais) */
+@media screen and (min-width: 1141px) {
+  .header__search {
+    display: block;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
