@@ -99,6 +99,7 @@ padding-top: 16px;
 margin: 10px;
 border-radius: 10px;
 background-color: #121212;
+color: #15e215;
 }
 
 .playlist {
@@ -313,6 +314,7 @@ right: 10px;
 top: 120px;
 padding: 18px;
 background-color: #1db954;
+color: #fff;
 border-radius: 100%;
 font-size: 14px;
 opacity: 0;
